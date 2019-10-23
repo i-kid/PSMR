@@ -56,34 +56,9 @@ type KVPaxos struct {
 	dead       bool // for testing
 	Unreliable bool // for testing
 	px         *paxos.Paxos
-
-	// Your definitions here.
-
-	//client -> pid, if i save the pid in data, the code couldn't pass the memory test
-	/************************Note***********************************************************
-	There are some problems for the TestManyPartition and TestUnreliable, some time it may get
-	wrong value, because of a request will be sent to different server due to network error,
-	but it has chance that the request 1 for key "a" had been received by a server, the server
-	use paxos to synchorize to the other servers, and save the pid1 in "kv.state", and then the
-	request 2 for key "a" arrived, and processed by the servers, then replaced pid1 by pid2 in
-	"kv.state". However, when the server failed to reply the request 1 for key "a", the client
-	will retry, in the normal case, the server will find pid1 has been processd, so it would
-	response the old value for key "a" instead of process the request, but in this case, the pid1
-	had been replaced by pid2, the request 1 would be process twice, and made a wrong value.
-
-	I caught up with two methods to solve this problem. The first method, is simple, but not
-	too well, when a client couldn't receive the response from server, it will sleep for a
-	few seconds. The second method, storing the recent request pid in a queue, each time a
-	requst came in, the server should check whether the request had been processed.
-
-	In this part, I simply used the first method. This would let the test code runing for a
-	bit longer (In my pc, it tooks about 359 seconds to finish the test.). The implementation
-	of the second method, had been written in homework4.
-	*************************************************************************************/
 	state map[string]Reply
 	data  sync.Map
 	seq   int
-
 	log          [1000000]Op
 	applyCmd     chan Op
 	applyMode    int
@@ -118,6 +93,7 @@ func (kv *KVPaxos) apply(o Op) string {
 	} else if o.Opr == OprDel {
 		kv.data.Delete(o.Key)
 	}
+	//fmt.Println("o.Key:",o.Key)
 	return oldv
 }
 
@@ -1320,6 +1296,7 @@ func (kv *KVPaxos) batchGraphapply(chIn chan Op) {
 func (kv *KVPaxos) sync(o Op) string {
 
 	for {
+		
 		if v, ok := kv.state[o.Client]; ok && v.Pid == o.Pid {
 			DPrintf("Operation has been processed. type:%d key:%s val:%s\n",
 				o.Opr, o.Key, o.Value)
@@ -1338,21 +1315,13 @@ func (kv *KVPaxos) sync(o Op) string {
 		//kv.px.Done(kv.seq)
 
 		//fmt.Println(kv.me, kv.count, o, no)
+		
 		if nop == o {
+			fmt.Println("1-kv.seq:",kv.seq)
 			kv.seq++
 			kv.px.Done(kv.seq)
-			if kv.applyMode == 4 {
-				kv.Graphapply(kv.applyCmd)
-			} else if kv.applyMode == 5 {
-				kv.bitmapGraphapply(kv.applyCmd)
-			} else if kv.applyMode == 6 {
-				kv.batchGraphapply(kv.applyCmd)
-			} else if kv.applyMode == 7 {
-				kv.Extramapply(kv.applyCmd)
-			} else if kv.applyMode == 8 {
-				kv.concurrentbitmapGraphapply(kv.applyCmd)
-			}
 			ret := kv.apply(nop)
+			fmt.Println("2-kv.seq:",kv.seq)
 			return ret
 		}
 		fmt.Println("kv.seq:",kv.seq)
@@ -1485,13 +1454,17 @@ func StartServer(servers []string, me int, applyId, batchSize, paraSize, bitmapS
 			}
 		}
 	}()
-	// if kv.applyMode == 4 {
-	// 	fmt.Println("Graphapply is running")
-	// 	go kv.Graphapply(kv.applyCmd)
-	// } else if kv.applyMode == 5 {
-	// 	// fmt.Println("bitmapGraphapply is running")
-	// 	// go kv.bitmapGraphapply(kv.applyCmd)
-	// }
+	if kv.applyMode == 4 {
+		go kv.Graphapply(kv.applyCmd)
+	} else if kv.applyMode == 5 {
+		go kv.bitmapGraphapply(kv.applyCmd)
+	} else if kv.applyMode == 6 {
+		go kv.batchGraphapply(kv.applyCmd)
+	} else if kv.applyMode == 7 {
+		go kv.Extramapply(kv.applyCmd)
+	} else if kv.applyMode == 8 {
+		go kv.concurrentbitmapGraphapply(kv.applyCmd)
+	}
 	// go func() {
 	// 	for {
 	// 		fmt.Println("len(kv.applyCmd)", len(kv.applyCmd))
