@@ -1,0 +1,264 @@
+all you want is deleted, please wait....
+no matter you change source code or not, the app has been rebuild
+[32m20:20:43 raftexample1 | [mStarting raftexample1 on port 5000
+[36m20:20:43 raftexample2 | [mStarting raftexample2 on port 5100
+[35m20:20:43 raftexample3 | [mStarting raftexample3 on port 5200
+[32m20:20:43 raftexample1 | [m2020-01-09 20:20:43.562644 I | profile: cpu profiling enabled, /tmp/profile574401927/cpu.pprof
+[32m20:20:43 raftexample1 | [mNumCPU 返回本地机器的逻辑cpu个数 4
+[35m20:20:43 raftexample3 | [m2020-01-09 20:20:43.562863 I | profile: cpu profiling enabled, /tmp/profile011309359/cpu.pprof
+[35m20:20:43 raftexample3 | [mNumCPU 返回本地机器的逻辑cpu个数 4
+[36m20:20:43 raftexample2 | [m2020-01-09 20:20:43.563257 I | profile: cpu profiling enabled, /tmp/profile607733892/cpu.pprof
+[36m20:20:43 raftexample2 | [mNumCPU 返回本地机器的逻辑cpu个数 4
+[35m20:20:43 raftexample3 | [m2020-01-09 20:20:43.564714 I | replaying WAL of member 3
+[36m20:20:43 raftexample2 | [m2020-01-09 20:20:43.566419 I | replaying WAL of member 2
+[32m20:20:43 raftexample1 | [m2020-01-09 20:20:43.567239 I | replaying WAL of member 1
+[32m20:20:43 raftexample1 | [m2020-01-09 20:20:43.576957 I | loading WAL at term 0 and index 0
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=()
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 became follower at term 0
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: newRaft 1 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 became follower at term 1
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=(1)
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=(1 2)
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=(1 2 3)
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started remote peer","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"added remote peer","local-member-id":"1","remote-peer-id":"2","remote-peer-urls":["http://127.0.0.1:22379"]}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m1 ---------------begin------------
+[36m20:20:43 raftexample2 | [m2020-01-09 20:20:43.595473 I | loading WAL at term 0 and index 0
+[32m20:20:43 raftexample1 | [m1 length of commitC from raft: 0
+[32m20:20:43 raftexample1 | [m1 length of proposeC to raft: 0
+[32m20:20:43 raftexample1 | [m1 length of commit to apply: 0
+[32m20:20:43 raftexample1 | [m1 length of apply to db: 0
+[32m20:20:43 raftexample1 | [m1 length of delCH to schduler: 0
+[32m20:20:43 raftexample1 | [m1 response to client,length of respC: 0
+[32m20:20:43 raftexample1 | [m1 thread apply efficency: 0
+[32m20:20:43 raftexample1 | [mlen of schduler to DB temp ch: 0
+[32m20:20:43 raftexample1 | [m2 thread apply efficency: 0
+[32m20:20:43 raftexample1 | [mlen of schduler to DB temp ch: 0
+[32m20:20:43 raftexample1 | [m3 thread apply efficency: 0
+[32m20:20:43 raftexample1 | [mlen of schduler to DB temp ch: 0
+[32m20:20:43 raftexample1 | [m4 thread apply efficency: 0
+[32m20:20:43 raftexample1 | [mlen of schduler to DB temp ch: 0
+[32m20:20:43 raftexample1 | [mtotal thread apply efficency: 0
+[32m20:20:43 raftexample1 | [m1 commit times: 1
+[32m20:20:43 raftexample1 | [m1 apply times: [0 0 0 0] 0
+[32m20:20:43 raftexample1 | [m1 RespCliBeforeBatchTimes: 0
+[32m20:20:43 raftexample1 | [m1 RespCliBatchTimes: 0
+[32m20:20:43 raftexample1 | [m1 fast del times: 0 direct and del apply times: 0 0 0
+[32m20:20:43 raftexample1 | [m1 ---------------end------------
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"3","address":"http://127.0.0.1:32379/raft/stream/msgapp/1"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started remote peer","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"added remote peer","local-member-id":"1","remote-peer-id":"3","remote-peer-urls":["http://127.0.0.1:32379"]}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"2","address":"http://127.0.0.1:22379/raft/stream/msgapp/1"}
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=(1 2 3)
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=(1 2 3)
+[32m20:20:43 raftexample1 | [mraft2020/01/09 20:20:43 INFO: 1 switched to configuration voters=(1 2 3)
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"2","address":"http://127.0.0.1:22379/raft/stream/message/1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to dial 2 on stream MsgApp v2 (dial tcp 127.0.0.1:22379: connect: connection refused)"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"2","address":"http://127.0.0.1:22379/raft/stream/msgapp/1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"3","error":"failed to dial 3 on stream MsgApp v2 (dial tcp 127.0.0.1:32379: connect: connection refused)"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"3","address":"http://127.0.0.1:32379/raft/stream/msgapp/1"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"3","address":"http://127.0.0.1:32379/raft/stream/message/1"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to dial 2 on stream Message (dial tcp 127.0.0.1:22379: connect: connection refused)"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"2","address":"http://127.0.0.1:22379/raft/stream/message/1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to dial 2 on stream Message (dial tcp 127.0.0.1:22379: connect: connection refused)"}
+[35m20:20:43 raftexample3 | [m2020-01-09 20:20:43.600845 I | loading WAL at term 0 and index 0
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to dial 2 on stream MsgApp v2 (dial tcp 127.0.0.1:22379: connect: connection refused)"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"3","error":"failed to dial 3 on stream Message (dial tcp 127.0.0.1:32379: connect: connection refused)"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"3","address":"http://127.0.0.1:32379/raft/stream/message/1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"3","error":"failed to dial 3 on stream MsgApp v2 (dial tcp 127.0.0.1:32379: connect: connection refused)"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"3","error":"failed to dial 3 on stream Message (dial tcp 127.0.0.1:32379: connect: connection refused)"}
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=()
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 became follower at term 0
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: newRaft 2 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 became follower at term 1
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=(1)
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=(1 2)
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=(1 2 3)
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started remote peer","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"1","remote-peer-urls":["http://127.0.0.1:12379"]}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started remote peer","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"3","remote-peer-urls":["http://127.0.0.1:32379"]}
+[36m20:20:43 raftexample2 | [m2 ---------------begin------------
+[36m20:20:43 raftexample2 | [m2 length of commitC from raft: 0
+[36m20:20:43 raftexample2 | [m2 length of proposeC to raft: 0
+[36m20:20:43 raftexample2 | [m2 length of commit to apply: 0
+[36m20:20:43 raftexample2 | [m2 length of apply to db: 0
+[36m20:20:43 raftexample2 | [m2 length of delCH to schduler: 0
+[36m20:20:43 raftexample2 | [m2 response to client,length of respC: 0
+[36m20:20:43 raftexample2 | [m1 thread apply efficency: 0
+[36m20:20:43 raftexample2 | [mlen of schduler to DB temp ch: 0
+[36m20:20:43 raftexample2 | [m2 thread apply efficency: 0
+[36m20:20:43 raftexample2 | [mlen of schduler to DB temp ch: 0
+[36m20:20:43 raftexample2 | [m3 thread apply efficency: 0
+[36m20:20:43 raftexample2 | [mlen of schduler to DB temp ch: 0
+[36m20:20:43 raftexample2 | [m4 thread apply efficency: 0
+[36m20:20:43 raftexample2 | [mlen of schduler to DB temp ch: 0
+[36m20:20:43 raftexample2 | [mtotal thread apply efficency: 0
+[36m20:20:43 raftexample2 | [m2 commit times: 1
+[36m20:20:43 raftexample2 | [m2 apply times: [0 0 0 0] 0
+[36m20:20:43 raftexample2 | [m2 RespCliBeforeBatchTimes: 0
+[36m20:20:43 raftexample2 | [m2 RespCliBatchTimes: 0
+[36m20:20:43 raftexample2 | [m2 fast del times: 0 direct and del apply times: 0 0 0
+[36m20:20:43 raftexample2 | [m2 ---------------end------------
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=()
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 became follower at term 0
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: newRaft 3 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 became follower at term 1
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=(1)
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=(1 2)
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=(1 2 3)
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"3","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started remote peer","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"added remote peer","local-member-id":"3","remote-peer-id":"1","remote-peer-urls":["http://127.0.0.1:12379"]}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started remote peer","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"set message encoder","from":"1","to":"1","stream-type":"stream Message"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"peer became active","peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"set message encoder","from":"1","to":"1","stream-type":"stream MsgApp v2"}
+[32m20:20:43 raftexample1 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"1","remote-peer-id":"2"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12379/raft/stream/msgapp/2"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12379/raft/stream/message/2"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"3","address":"http://127.0.0.1:32379/raft/stream/msgapp/2"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"3","address":"http://127.0.0.1:32379/raft/stream/message/2"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"peer became active","peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"peer became active","peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[36m20:20:43 raftexample2 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"3"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"added remote peer","local-member-id":"3","remote-peer-id":"2","remote-peer-urls":["http://127.0.0.1:22379"]}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"2","address":"http://127.0.0.1:22379/raft/stream/msgapp/3"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"2","address":"http://127.0.0.1:22379/raft/stream/message/3"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"set message encoder","from":"3","to":"3","stream-type":"stream MsgApp v2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"peer became active","peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"set message encoder","from":"3","to":"3","stream-type":"stream Message"}
+[35m20:20:43 raftexample3 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"3","remote-peer-id":"2"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"3","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"3","remote-peer-id":"1"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"set message encoder","from":"1","to":"1","stream-type":"stream MsgApp v2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"peer became active","peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"set message encoder","from":"1","to":"1","stream-type":"stream Message"}
+[32m20:20:43 raftexample1 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"1","remote-peer-id":"3"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"1","address":"http://127.0.0.1:12379/raft/stream/msgapp/3"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"3","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"1","address":"http://127.0.0.1:12379/raft/stream/message/3"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"peer became active","peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"3","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"1"}
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=(1 2 3)
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=(1 2 3)
+[36m20:20:43 raftexample2 | [mraft2020/01/09 20:20:43 INFO: 2 switched to configuration voters=(1 2 3)
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=(1 2 3)
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=(1 2 3)
+[35m20:20:43 raftexample3 | [mraft2020/01/09 20:20:43 INFO: 3 switched to configuration voters=(1 2 3)
+[35m20:20:43 raftexample3 | [m3 ---------------begin------------
+[35m20:20:43 raftexample3 | [m3 length of commitC from raft: 0
+[35m20:20:43 raftexample3 | [m3 length of proposeC to raft: 0
+[35m20:20:43 raftexample3 | [m3 length of commit to apply: 0
+[35m20:20:43 raftexample3 | [m3 length of apply to db: 0
+[35m20:20:43 raftexample3 | [m3 length of delCH to schduler: 0
+[35m20:20:43 raftexample3 | [m3 response to client,length of respC: 0
+[35m20:20:43 raftexample3 | [m1 thread apply efficency: 0
+[35m20:20:43 raftexample3 | [mlen of schduler to DB temp ch: 0
+[35m20:20:43 raftexample3 | [m2 thread apply efficency: 0
+[35m20:20:43 raftexample3 | [mlen of schduler to DB temp ch: 0
+[35m20:20:43 raftexample3 | [m3 thread apply efficency: 0
+[35m20:20:43 raftexample3 | [mlen of schduler to DB temp ch: 0
+[35m20:20:43 raftexample3 | [m4 thread apply efficency: 0
+[35m20:20:43 raftexample3 | [mlen of schduler to DB temp ch: 0
+[35m20:20:43 raftexample3 | [mtotal thread apply efficency: 0
+[35m20:20:43 raftexample3 | [m3 commit times: 1
+[35m20:20:43 raftexample3 | [m3 apply times: [0 0 0 0] 0
+[35m20:20:43 raftexample3 | [m3 RespCliBeforeBatchTimes: 0
+[35m20:20:43 raftexample3 | [m3 RespCliBatchTimes: 0
+[35m20:20:43 raftexample3 | [m3 fast del times: 0 direct and del apply times: 0 0 0
+[35m20:20:43 raftexample3 | [m3 ---------------end------------
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"3","address":"http://127.0.0.1:32379/raft/stream/msgapp/1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"2","address":"http://127.0.0.1:22379/raft/stream/msgapp/1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"set message encoder","from":"3","to":"3","stream-type":"stream MsgApp v2"}
+[35m20:20:43 raftexample3 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"1"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"1","remote-peer-id":"3"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[36m20:20:43 raftexample2 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"3","address":"http://127.0.0.1:32379/raft/stream/message/1"}
+[32m20:20:43 raftexample1 | [m{"level":"debug","msg":"dial stream reader","from":"1","to":"2","address":"http://127.0.0.1:22379/raft/stream/message/1"}
+[36m20:20:43 raftexample2 | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[36m20:20:43 raftexample2 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[35m20:20:43 raftexample3 | [m{"level":"info","msg":"set message encoder","from":"3","to":"3","stream-type":"stream Message"}
+[35m20:20:43 raftexample3 | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"3","remote-peer-id":"1"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"1","remote-peer-id":"3"}
+[32m20:20:43 raftexample1 | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"1","remote-peer-id":"2"}
+[32m20:20:44 raftexample1 | [m2020-01-09 20:20:44.129637 I | profile: caught interrupt, stopping profiles
+[32m20:20:44 raftexample1 | [m2020-01-09 20:20:44.130503 I | profile: cpu profiling disabled, /tmp/profile574401927/cpu.pprof
+[36m20:20:44 raftexample2 | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[36m20:20:44 raftexample2 | [m{"level":"warn","msg":"peer became inactive (message send to peer failed)","peer-id":"1","error":"failed to read 1 on stream MsgApp v2 (unexpected EOF)"}
+[36m20:20:44 raftexample2 | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12379/raft/stream/msgapp/2"}
+[36m20:20:44 raftexample2 | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[36m20:20:44 raftexample2 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to read 1 on stream Message (unexpected EOF)"}
+[36m20:20:44 raftexample2 | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12379/raft/stream/message/2"}
+[36m20:20:44 raftexample2 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12379: connect: connection refused)"}
+[36m20:20:44 raftexample2 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12379: connect: connection refused)"}
+[32m20:20:44 raftexample1 | [mTerminating raftexample1
+[35m20:20:44 raftexample3 | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"1","error":"unexpected EOF"}
+[35m20:20:44 raftexample3 | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"3","remote-peer-id":"1","error":"unexpected EOF"}
+[35m20:20:44 raftexample3 | [m{"level":"warn","msg":"peer became inactive (message send to peer failed)","peer-id":"1","error":"failed to read 1 on stream MsgApp v2 (unexpected EOF)"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"1","address":"http://127.0.0.1:12379/raft/stream/msgapp/3"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to read 1 on stream Message (unexpected EOF)"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"1","address":"http://127.0.0.1:12379/raft/stream/message/3"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12379: connect: connection refused)"}
+[36m20:20:44 raftexample2 | [m2020-01-09 20:20:44.133690 I | profile: caught interrupt, stopping profiles
+[36m20:20:44 raftexample2 | [m2020-01-09 20:20:44.134442 I | profile: cpu profiling disabled, /tmp/profile607733892/cpu.pprof
+[36m20:20:44 raftexample2 | [mTerminating raftexample2
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12379: connect: connection refused)"}
+[35m20:20:44 raftexample3 | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"3","remote-peer-id":"2","error":"unexpected EOF"}
+[35m20:20:44 raftexample3 | [m{"level":"warn","msg":"peer became inactive (message send to peer failed)","peer-id":"2","error":"failed to read 2 on stream Message (unexpected EOF)"}
+[35m20:20:44 raftexample3 | [m2020-01-09 20:20:44.141399 I | profile: caught interrupt, stopping profiles
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"2","address":"http://127.0.0.1:22379/raft/stream/message/3"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to dial 2 on stream Message (dial tcp 127.0.0.1:22379: connect: connection refused)"}
+[35m20:20:44 raftexample3 | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"3","remote-peer-id":"2","error":"unexpected EOF"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to read 2 on stream MsgApp v2 (unexpected EOF)"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"dial stream reader","from":"3","to":"2","address":"http://127.0.0.1:22379/raft/stream/msgapp/3"}
+[35m20:20:44 raftexample3 | [m{"level":"debug","msg":"peer deactivated again","peer-id":"2","error":"failed to dial 2 on stream MsgApp v2 (dial tcp 127.0.0.1:22379: connect: connection refused)"}
+[35m20:20:44 raftexample3 | [m2020-01-09 20:20:44.142982 I | profile: cpu profiling disabled, /tmp/profile011309359/cpu.pprof
+[35m20:20:44 raftexample3 | [mTerminating raftexample3

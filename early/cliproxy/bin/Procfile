@@ -1,0 +1,4 @@
+# Use goreman to run `go get github.com/mattn/goreman`
+clientProxy: ./cliproxy --cluster http://127.0.0.1:12376,http://127.0.0.1:22376,http://127.0.0.1:32376 --port 12380,22380,32380 
+
+

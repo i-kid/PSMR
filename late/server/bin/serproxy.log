@@ -1,0 +1,16 @@
+1 ---------------begin------------
+1 length of commitC from raft: 0
+1 length of proposeC to raft: 0
+1 length of commit to apply: 0
+1 length of apply to db: 0
+length of delCH to schduler: 0
+1 response to client,length of respC: 0
+1 thread apply efficency: 0
+len of schduler to DB temp ch: 0
+total thread apply efficency: 0
+1 commit times: 1
+1 apply times: [0] 0
+1 RespCliBeforeBatchTimes: 0
+1 RespCliBatchTimes: 0
+1 fast del times: 0 direct and del apply times: 0 0 0
+1 ---------------end------------

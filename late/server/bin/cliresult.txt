@@ -1,0 +1,50 @@
+NumCPU 返回本地机器的逻辑cpu个数 4
+recivec times: 0
+delete times: 0
+length of resp is: 0
+client1  time spend: 488.398358ms
+client1  num of transac: 100000
+recivec times: 0
+delete times: 0
+length of resp is: 0
+recivec times: 65505
+delete times: 36428
+length of resp is: 0
+recivec times: 148580
+delete times: 86740
+length of resp is: 0
+all command are responsed
+all time: 3.495281952s
+efficency is: 28609.9952373742
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+recivec times: 186034
+delete times: 100000
+length of resp is: 0
+all time: 3.495281952s
+efficency is: 28609.9952373742

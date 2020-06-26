@@ -1,0 +1,2 @@
+# Use goreman to run `go get github.com/mattn/goreman`
+serverProxy: ./serproxy --id 2 --mtcastNum 3 --cluster http://127.0.0.1:12376,http://127.0.0.1:12377%http://127.0.0.1:22376,http://127.0.0.1:22377%http://127.0.0.1:32376,http://127.0.0.1:32377 --port 12381,12382,12383 --join

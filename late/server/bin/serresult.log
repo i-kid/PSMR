@@ -1,0 +1,83 @@
+all you want is deleted, please wait....
+no matter you change source code or not, the app has been rebuild
+[32m04:02:33 raftexample1 | [mStarting raftexample1 on port 5000
+[32m04:02:33 raftexample1 | [mNumCPU 返回本地机器的逻辑cpu个数 4
+[32m04:02:33 raftexample1 | [m2020-01-06 04:02:33.465832 I | replaying WAL of member 1
+[32m04:02:33 raftexample1 | [m2020-01-06 04:02:33.473732 I | loading WAL at term 0 and index 0
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=()
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 became follower at term 0
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: newRaft 1 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 became follower at term 1
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=(1)
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=(1 2)
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=(1 2 3)
+[32m04:02:33 raftexample1 | [m1 ---------------begin------------
+[32m04:02:33 raftexample1 | [m1 length of commitC from raft: 1
+[32m04:02:33 raftexample1 | [m1 length of proposeC to raft: 0
+[32m04:02:33 raftexample1 | [m1 length of commit to apply: 0
+[32m04:02:33 raftexample1 | [m1 response to client,length of respC: 0
+[32m04:02:33 raftexample1 | [m1 commit times: 0
+[32m04:02:33 raftexample1 | [m1 apply times: [0 0 0] 0
+[32m04:02:33 raftexample1 | [m1 RespCliBeforeBatchTimes: 0
+[32m04:02:33 raftexample1 | [m1 RespCliBatchTimes: 0
+[32m04:02:33 raftexample1 | [m1 fast del times: 0 direct and del apply times: 0 0 0
+[32m04:02:33 raftexample1 | [m1 ---------------end------------
+[32m04:02:33 raftexample1 | [mdb,mode: 1 2
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=(1 2 3)
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=(1 2 3)
+[32m04:02:33 raftexample1 | [mraft2020/01/06 04:02:33 INFO: 1 switched to configuration voters=(1 2 3)
+[32m04:02:34 raftexample1 | [mraft2020/01/06 04:02:34 INFO: 1 [term: 1] received a MsgVote message with higher term from 2 [term: 2]
+[32m04:02:34 raftexample1 | [mraft2020/01/06 04:02:34 INFO: 1 became follower at term 2
+[32m04:02:34 raftexample1 | [mraft2020/01/06 04:02:34 INFO: 1 [logterm: 1, index: 3, vote: 0] cast MsgVote for 2 [logterm: 1, index: 3] at term 2
+[32m04:02:34 raftexample1 | [mraft2020/01/06 04:02:34 INFO: raft.node: 1 elected leader 2 at term 2
+[32m04:02:36 raftexample1 | [m1 ---------------begin------------
+[32m04:02:36 raftexample1 | [m1 length of commitC from raft: 0
+[32m04:02:36 raftexample1 | [m1 length of proposeC to raft: 0
+[32m04:02:36 raftexample1 | [m1 length of commit to apply: 0
+[32m04:02:36 raftexample1 | [m1 response to client,length of respC: 0
+[32m04:02:36 raftexample1 | [m1 commit times: 1
+[32m04:02:36 raftexample1 | [m1 apply times: [0 0 0] 0
+[32m04:02:36 raftexample1 | [m1 RespCliBeforeBatchTimes: 0
+[32m04:02:36 raftexample1 | [m1 RespCliBatchTimes: 0
+[32m04:02:36 raftexample1 | [m1 fast del times: 0 direct and del apply times: 0 0 0
+[32m04:02:36 raftexample1 | [m1 ---------------end------------
+[32m04:02:39 raftexample1 | [m1 ---------------begin------------
+[32m04:02:39 raftexample1 | [m1 length of commitC from raft: 0
+[32m04:02:39 raftexample1 | [m1 length of proposeC to raft: 0
+[32m04:02:39 raftexample1 | [m1 length of commit to apply: 0
+[32m04:02:39 raftexample1 | [m1 response to client,length of respC: 0
+[32m04:02:39 raftexample1 | [m1 commit times: 1
+[32m04:02:39 raftexample1 | [m1 apply times: [0 0 0] 0
+[32m04:02:39 raftexample1 | [m1 RespCliBeforeBatchTimes: 0
+[32m04:02:39 raftexample1 | [m1 RespCliBatchTimes: 0
+[32m04:02:39 raftexample1 | [m1 fast del times: 0 direct and del apply times: 0 0 0
+[32m04:02:39 raftexample1 | [m1 ---------------end------------
+[32m04:02:42 raftexample1 | [m1 ---------------begin------------
+[32m04:02:42 raftexample1 | [m1 length of commitC from raft: 0
+[32m04:02:42 raftexample1 | [m1 length of proposeC to raft: 0
+[32m04:02:42 raftexample1 | [m1 length of commit to apply: 0
+[32m04:02:42 raftexample1 | [m1 response to client,length of respC: 0
+[32m04:02:42 raftexample1 | [m1 commit times: 1
+[32m04:02:42 raftexample1 | [m1 apply times: [0 0 0] 0
+[32m04:02:42 raftexample1 | [m1 RespCliBeforeBatchTimes: 0
+[32m04:02:42 raftexample1 | [m1 RespCliBatchTimes: 0
+[32m04:02:42 raftexample1 | [m1 fast del times: 0 direct and del apply times: 0 0 0
+[32m04:02:42 raftexample1 | [m1 ---------------end------------
+[32m04:02:45 raftexample1 | [m1 ---------------begin------------
+[32m04:02:45 raftexample1 | [m1 length of commitC from raft: 0
+[32m04:02:45 raftexample1 | [m1 length of proposeC to raft: 0
+[32m04:02:45 raftexample1 | [m1 length of commit to apply: 0
+[32m04:02:45 raftexample1 | [m1 response to client,length of respC: 0
+[32m04:02:45 raftexample1 | [m1 commit times: 1
+[32m04:02:45 raftexample1 | [m1 apply times: [0 0 0] 0
+[32m04:02:45 raftexample1 | [m1 RespCliBeforeBatchTimes: 0
+[32m04:02:45 raftexample1 | [m1 RespCliBatchTimes: 0
+[32m04:02:45 raftexample1 | [m1 fast del times: 0 direct and del apply times: 0 0 0
+[32m04:02:45 raftexample1 | [m1 ---------------end------------
+[32m04:02:48 raftexample1 | [mPOTENTIAL DEADLOCK: Duplicate locking, saw callers this locks in one goroutine:
+[32m04:02:48 raftexample1 | [mcurrent goroutine 98 lock &{{1 0}} 
+[32m04:02:48 raftexample1 | [mall callers to this lock in the goroutine
+[32m04:02:48 raftexample1 | [m../kvstore.go:466 server.(*Kvstore).schdulerFastWR { opTemp.muKVT.Lock() } <<<<<
+[32m04:02:48 raftexample1 | [m../kvstore.go:478 server.(*Kvstore).schdulerFastWR { opTemp.muKVT.Lock() } <<<<<
+[32m04:02:48 raftexample1 | [mOther goroutines holding locks:
+[32m04:02:48 raftexample1 | [mTerminating raftexample1

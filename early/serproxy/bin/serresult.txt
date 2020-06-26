@@ -1,0 +1,402 @@
+[32m01:05:26 serverProxy | [mStarting serverProxy on port 5000
+[32m01:05:26 serverProxy | [mNumCPU 返回本地机器的逻辑cpu个数 4
+[32m01:05:26 serverProxy | [m[http://127.0.0.1:12376,http://127.0.0.1:12377 http://127.0.0.1:22376,http://127.0.0.1:22377 http://127.0.0.1:32376,http://127.0.0.1:32377]
+[32m01:05:26 serverProxy | [mschdulerExtrememap is running
+[32m01:05:26 serverProxy | [m---------------begin------------
+[32m01:05:26 serverProxy | [mcommit1 length:: 0
+[32m01:05:26 serverProxy | [mcommit2 length:: 0
+[32m01:05:26 serverProxy | [mcommit3 length:: 0
+[32m01:05:26 serverProxy | [mrespC length:: 0
+[32m01:05:26 serverProxy | [mcommit times: [0 0 0] 0 apply times: [0 0 0] 0
+[32m01:05:26 serverProxy | [m---------------end------------
+[32m01:05:26 serverProxy | [m2019-12-31 01:05:26.789739 I | replaying WAL of member 2
+[32m01:05:26 serverProxy | [m2019-12-31 01:05:26.792397 I | replaying WAL of member 2
+[32m01:05:26 serverProxy | [m2019-12-31 01:05:26.793448 I | replaying WAL of member 2
+[32m01:05:26 serverProxy | [m2019-12-31 01:05:26.809449 I | loading WAL at term 0 and index 0
+[32m01:05:26 serverProxy | [mstartPeers: [{1 []} {2 []}]
+[32m01:05:26 serverProxy | [m2019-12-31 01:05:26.809726 I | loading WAL at term 0 and index 0
+[32m01:05:26 serverProxy | [mrc.join: true
+[32m01:05:26 serverProxy | [m2019-12-31 01:05:26.810543 I | loading WAL at term 0 and index 0
+[32m01:05:26 serverProxy | [mstartPeers: [{1 []} {2 []}]
+[32m01:05:26 serverProxy | [mrc.join: true
+[32m01:05:26 serverProxy | [mstartPeers: [{1 []} {2 []}]
+[32m01:05:26 serverProxy | [mrc.join: true
+[32m01:05:27 serverProxy | [m---------------begin------------
+[32m01:05:27 serverProxy | [mcommit1 length:: 0
+[32m01:05:27 serverProxy | [mcommit2 length:: 0
+[32m01:05:27 serverProxy | [mcommit3 length:: 0
+[32m01:05:27 serverProxy | [mrespC length:: 0
+[32m01:05:27 serverProxy | [mcommit times: [1 1 1] 3 apply times: [0 0 0] 0
+[32m01:05:27 serverProxy | [m---------------end------------
+[32m01:05:28 serverProxy | [m---------------begin------------
+[32m01:05:28 serverProxy | [mcommit1 length:: 0
+[32m01:05:28 serverProxy | [mcommit2 length:: 0
+[32m01:05:28 serverProxy | [mcommit3 length:: 0
+[32m01:05:28 serverProxy | [mrespC length:: 0
+[32m01:05:28 serverProxy | [mcommit times: [1 1 1] 3 apply times: [0 0 0] 0
+[32m01:05:28 serverProxy | [m---------------end------------
+[32m01:05:28 serverProxy | [mpanic: no peers given; use RestartNode instead
+[32m01:05:28 serverProxy | [mgoroutine 82 [running]:
+[32m01:05:28 serverProxy | [mgo.etcd.io/etcd/raft.StartNode(0xc0000a9f20, 0x0, 0x0, 0x0, 0x2, 0xe)
+[32m01:05:28 serverProxy | [m	/home/kisisjelly/etcd-redis-early -batch -trans/raft/node.go:218 +0x43b
+[32m01:05:28 serverProxy | [mgo.etcd.io/etcd/contrib/serproxy.(*raftNode).startRaft(0xc000812f00)
+[32m01:05:28 serverProxy | [m	/home/kisisjelly/etcd-redis-early -batch -trans/contrib/serproxy/raft.go:299 +0x81e
+[32m01:05:28 serverProxy | [mcreated by go.etcd.io/etcd/contrib/serproxy.NewRaftNode
+[32m01:05:28 serverProxy | [m	/home/kisisjelly/etcd-redis-early -batch -trans/contrib/serproxy/raft.go:108 +0x3e7
+[32m01:05:28 serverProxy | [mTerminating serverProxy
+[32m01:05:31 serverProxy | [mStarting serverProxy on port 5000
+[32m01:05:31 serverProxy | [mNumCPU 返回本地机器的逻辑cpu个数 4
+[32m01:05:31 serverProxy | [m[http://127.0.0.1:12376,http://127.0.0.1:12377 http://127.0.0.1:22376,http://127.0.0.1:22377 http://127.0.0.1:32376,http://127.0.0.1:32377]
+[32m01:05:31 serverProxy | [mschdulerExtrememap is running
+[32m01:05:31 serverProxy | [m---------------begin------------
+[32m01:05:31 serverProxy | [mcommit1 length:: 0
+[32m01:05:31 serverProxy | [mcommit2 length:: 0
+[32m01:05:31 serverProxy | [mcommit3 length:: 0
+[32m01:05:31 serverProxy | [mrespC length:: 0
+[32m01:05:31 serverProxy | [mcommit times: [0 0 0] 0 apply times: [0 0 0] 0
+[32m01:05:31 serverProxy | [m---------------end------------
+[32m01:05:31 serverProxy | [m2019-12-31 01:05:31.874179 I | replaying WAL of member 2
+[32m01:05:31 serverProxy | [m2019-12-31 01:05:31.874315 I | loading WAL at term 0 and index 0
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=()
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 became follower at term 0
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: newRaft 2 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[32m01:05:31 serverProxy | [m2019-12-31 01:05:31.877503 I | replaying WAL of member 2
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m2019-12-31 01:05:31.878373 I | loading WAL at term 0 and index 0
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=()
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 became follower at term 0
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: newRaft 2 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started remote peer","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"1","remote-peer-urls":["http://127.0.0.1:22376"]}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/msgapp/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/message/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"peer became active","peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m2019-12-31 01:05:31.884134 I | replaying WAL of member 2
+[32m01:05:31 serverProxy | [m2019-12-31 01:05:31.884215 I | loading WAL at term 0 and index 0
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started remote peer","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"1","remote-peer-urls":["http://127.0.0.1:32376"]}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/message/2"}
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=()
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 became follower at term 0
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: newRaft 2 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/msgapp/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started remote peer","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"1","remote-peer-urls":["http://127.0.0.1:12376"]}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/message/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/msgapp/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"peer became active","peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"peer became active","peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 [term: 0] received a MsgHeartbeat message with higher term from 1 [term: 2]
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 became follower at term 2
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: raft.node: 2 elected leader 1 at term 2
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=(1)
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=(1 2)
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started remote peer","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"2","remote-peer-urls":["http://127.0.0.1:22377"]}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"2","address":"http://127.0.0.1:22377/raft/stream/msgapp/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"2","address":"http://127.0.0.1:22377/raft/stream/message/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"peer became active","peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 [term: 0] received a MsgHeartbeat message with higher term from 1 [term: 2]
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 became follower at term 2
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: raft.node: 2 elected leader 1 at term 2
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 [term: 0] received a MsgHeartbeat message with higher term from 1 [term: 2]
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 became follower at term 2
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: raft.node: 2 elected leader 1 at term 2
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=(1)
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=(1 2)
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=(1)
+[32m01:05:31 serverProxy | [mraft2019/12/31 01:05:31 INFO: 2 switched to configuration voters=(1 2)
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started remote peer","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"2","remote-peer-urls":["http://127.0.0.1:12377"]}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"starting remote peer","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started HTTP pipelining with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started remote peer","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"added remote peer","local-member-id":"2","remote-peer-id":"2","remote-peer-urls":["http://127.0.0.1:32377"]}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"2","address":"http://127.0.0.1:12377/raft/stream/msgapp/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"2","address":"http://127.0.0.1:12377/raft/stream/message/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"peer became active","peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"2","address":"http://127.0.0.1:32377/raft/stream/msgapp/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream reader with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"2","address":"http://127.0.0.1:32377/raft/stream/message/2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"peer became active","peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"started stream writer with remote peer","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream MsgApp v2"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"set message encoder","from":"2","to":"2","stream-type":"stream Message"}
+[32m01:05:31 serverProxy | [m{"level":"warn","msg":"established TCP streaming connection with remote peer","stream-writer-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:31 serverProxy | [m{"level":"info","msg":"established TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"2"}
+[32m01:05:32 serverProxy | [m---------------begin------------
+[32m01:05:32 serverProxy | [mcommit1 length:: 0
+[32m01:05:32 serverProxy | [mcommit2 length:: 0
+[32m01:05:32 serverProxy | [mcommit3 length:: 0
+[32m01:05:32 serverProxy | [mrespC length:: 0
+[32m01:05:32 serverProxy | [mcommit times: [1 1 1] 3 apply times: [0 0 0] 0
+[32m01:05:32 serverProxy | [m---------------end------------
+[32m01:05:33 serverProxy | [m---------------begin------------
+[32m01:05:33 serverProxy | [mcommit1 length:: 0
+[32m01:05:33 serverProxy | [mcommit2 length:: 0
+[32m01:05:33 serverProxy | [mcommit3 length:: 0
+[32m01:05:33 serverProxy | [mrespC length:: 0
+[32m01:05:33 serverProxy | [mcommit times: [1 1 1] 3 apply times: [0 0 0] 0
+[32m01:05:33 serverProxy | [m---------------end------------
+[32m01:05:34 serverProxy | [m---------------begin------------
+[32m01:05:34 serverProxy | [mcommit1 length:: 0
+[32m01:05:34 serverProxy | [mcommit2 length:: 0
+[32m01:05:34 serverProxy | [mcommit3 length:: 0
+[32m01:05:34 serverProxy | [mrespC length:: 0
+[32m01:05:34 serverProxy | [mcommit times: [1 1 1] 3 apply times: [0 0 0] 0
+[32m01:05:34 serverProxy | [m---------------end------------
+[32m01:05:35 serverProxy | [m---------------begin------------
+[32m01:05:35 serverProxy | [mcommit1 length:: 29
+[32m01:05:35 serverProxy | [mcommit2 length:: 25
+[32m01:05:35 serverProxy | [mcommit3 length:: 24
+[32m01:05:35 serverProxy | [mrespC length:: 10000
+[32m01:05:35 serverProxy | [mcommit times: [27 32 19] 78 apply times: [14213 18990 17582] 50785
+[32m01:05:35 serverProxy | [m---------------end------------
+[32m01:05:36 serverProxy | [m---------------begin------------
+[32m01:05:36 serverProxy | [mcommit1 length:: 0
+[32m01:05:36 serverProxy | [mcommit2 length:: 0
+[32m01:05:36 serverProxy | [mcommit3 length:: 0
+[32m01:05:36 serverProxy | [mrespC length:: 0
+[32m01:05:36 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:36 serverProxy | [m---------------end------------
+[32m01:05:37 serverProxy | [m---------------begin------------
+[32m01:05:37 serverProxy | [mcommit1 length:: 0
+[32m01:05:37 serverProxy | [mcommit2 length:: 0
+[32m01:05:37 serverProxy | [mcommit3 length:: 0
+[32m01:05:37 serverProxy | [mrespC length:: 0
+[32m01:05:37 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:37 serverProxy | [m---------------end------------
+[32m01:05:38 serverProxy | [m---------------begin------------
+[32m01:05:38 serverProxy | [mcommit1 length:: 0
+[32m01:05:38 serverProxy | [mcommit2 length:: 0
+[32m01:05:38 serverProxy | [mcommit3 length:: 0
+[32m01:05:38 serverProxy | [mrespC length:: 0
+[32m01:05:38 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:38 serverProxy | [m---------------end------------
+[32m01:05:39 serverProxy | [m---------------begin------------
+[32m01:05:39 serverProxy | [mcommit1 length:: 0
+[32m01:05:39 serverProxy | [mcommit2 length:: 0
+[32m01:05:39 serverProxy | [mcommit3 length:: 0
+[32m01:05:39 serverProxy | [mrespC length:: 0
+[32m01:05:39 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:39 serverProxy | [m---------------end------------
+[32m01:05:40 serverProxy | [m---------------begin------------
+[32m01:05:40 serverProxy | [mcommit1 length:: 0
+[32m01:05:40 serverProxy | [mcommit2 length:: 0
+[32m01:05:40 serverProxy | [mcommit3 length:: 0
+[32m01:05:40 serverProxy | [mrespC length:: 0
+[32m01:05:40 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:40 serverProxy | [m---------------end------------
+[32m01:05:41 serverProxy | [m---------------begin------------
+[32m01:05:41 serverProxy | [mcommit1 length:: 0
+[32m01:05:41 serverProxy | [mcommit2 length:: 0
+[32m01:05:41 serverProxy | [mcommit3 length:: 0
+[32m01:05:41 serverProxy | [mrespC length:: 0
+[32m01:05:41 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:41 serverProxy | [m---------------end------------
+[32m01:05:42 serverProxy | [m---------------begin------------
+[32m01:05:42 serverProxy | [mcommit1 length:: 0
+[32m01:05:42 serverProxy | [mcommit2 length:: 0
+[32m01:05:42 serverProxy | [mcommit3 length:: 0
+[32m01:05:42 serverProxy | [mrespC length:: 0
+[32m01:05:42 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:42 serverProxy | [m---------------end------------
+[32m01:05:43 serverProxy | [m---------------begin------------
+[32m01:05:43 serverProxy | [mcommit1 length:: 0
+[32m01:05:43 serverProxy | [mcommit2 length:: 0
+[32m01:05:43 serverProxy | [mcommit3 length:: 0
+[32m01:05:43 serverProxy | [mrespC length:: 0
+[32m01:05:43 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:43 serverProxy | [m---------------end------------
+[32m01:05:44 serverProxy | [m---------------begin------------
+[32m01:05:44 serverProxy | [mcommit1 length:: 0
+[32m01:05:44 serverProxy | [mcommit2 length:: 0
+[32m01:05:44 serverProxy | [mcommit3 length:: 0
+[32m01:05:44 serverProxy | [mrespC length:: 0
+[32m01:05:44 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:44 serverProxy | [m---------------end------------
+[32m01:05:45 serverProxy | [m---------------begin------------
+[32m01:05:45 serverProxy | [mcommit1 length:: 0
+[32m01:05:45 serverProxy | [mcommit2 length:: 0
+[32m01:05:45 serverProxy | [mcommit3 length:: 0
+[32m01:05:45 serverProxy | [mrespC length:: 0
+[32m01:05:45 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:45 serverProxy | [m---------------end------------
+[32m01:05:46 serverProxy | [m---------------begin------------
+[32m01:05:46 serverProxy | [mcommit1 length:: 0
+[32m01:05:46 serverProxy | [mcommit2 length:: 0
+[32m01:05:46 serverProxy | [mcommit3 length:: 0
+[32m01:05:46 serverProxy | [mrespC length:: 0
+[32m01:05:46 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:46 serverProxy | [m---------------end------------
+[32m01:05:47 serverProxy | [m---------------begin------------
+[32m01:05:47 serverProxy | [mcommit1 length:: 0
+[32m01:05:47 serverProxy | [mcommit2 length:: 0
+[32m01:05:47 serverProxy | [mcommit3 length:: 0
+[32m01:05:47 serverProxy | [mrespC length:: 0
+[32m01:05:47 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:47 serverProxy | [m---------------end------------
+[32m01:05:48 serverProxy | [m---------------begin------------
+[32m01:05:48 serverProxy | [mcommit1 length:: 0
+[32m01:05:48 serverProxy | [mcommit2 length:: 0
+[32m01:05:48 serverProxy | [mcommit3 length:: 0
+[32m01:05:48 serverProxy | [mrespC length:: 0
+[32m01:05:48 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:48 serverProxy | [m---------------end------------
+[32m01:05:49 serverProxy | [m---------------begin------------
+[32m01:05:49 serverProxy | [mcommit1 length:: 0
+[32m01:05:49 serverProxy | [mcommit2 length:: 0
+[32m01:05:49 serverProxy | [mcommit3 length:: 0
+[32m01:05:49 serverProxy | [mrespC length:: 0
+[32m01:05:49 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:49 serverProxy | [m---------------end------------
+[32m01:05:50 serverProxy | [m---------------begin------------
+[32m01:05:50 serverProxy | [mcommit1 length:: 0
+[32m01:05:50 serverProxy | [mcommit2 length:: 0
+[32m01:05:50 serverProxy | [mcommit3 length:: 0
+[32m01:05:50 serverProxy | [mrespC length:: 0
+[32m01:05:50 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:50 serverProxy | [m---------------end------------
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"peer became inactive (message send to peer failed)","peer-id":"1","error":"failed to read 1 on stream MsgApp v2 (unexpected EOF)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to read 1 on stream Message (unexpected EOF)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"peer became inactive (message send to peer failed)","peer-id":"1","error":"failed to read 1 on stream Message (unexpected EOF)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to read 1 on stream MsgApp v2 (unexpected EOF)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream Message","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"peer became inactive (message send to peer failed)","peer-id":"1","error":"failed to read 1 on stream Message (unexpected EOF)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"warn","msg":"lost TCP streaming connection with remote peer","stream-reader-type":"stream MsgApp v2","local-member-id":"2","remote-peer-id":"1","error":"unexpected EOF"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to read 1 on stream MsgApp v2 (unexpected EOF)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m---------------begin------------
+[32m01:05:51 serverProxy | [mcommit1 length:: 0
+[32m01:05:51 serverProxy | [mcommit2 length:: 0
+[32m01:05:51 serverProxy | [mcommit3 length:: 0
+[32m01:05:51 serverProxy | [mrespC length:: 0
+[32m01:05:51 serverProxy | [mcommit times: [135 135 125] 395 apply times: [33339 33322 33339] 100000
+[32m01:05:51 serverProxy | [m---------------end------------
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:22376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:22376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:12376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/message/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"dial stream reader","from":"2","to":"1","address":"http://127.0.0.1:32376/raft/stream/msgapp/2"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:32376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:51 serverProxy | [m{"level":"debug","msg":"peer deactivated again","peer-id":"1","error":"failed to dial 1 on stream Message (dial tcp 127.0.0.1:12376: connect: connection refused)"}
+[32m01:05:52 serverProxy | [mTerminating serverProxy
